@@ -66,6 +66,10 @@ $('.read02').hide();
 $('.read03').hide();
 $('.read04').hide();
 $('.read05').hide();
+$('.recommend01').hide();
+$('.recommend02').hide();
+$('.recommend03').hide();
+$('.recommend04').hide();
 
  
 // 「.linkarea」hover時に画像フェードイン
@@ -108,6 +112,30 @@ $('.linkarea05').hover(
 		}, function () {
 		$('.read05').stop(true, true).fadeOut(fadeoutSP);
 	}
+);
+
+$('#aboutus').hover(
+    function () {
+        $('.recommend02').stop(true, true).fadeIn(0);
+        }, function () {
+        $('.recommend02').stop(true, true).fadeOut(0);
+    }
+);
+
+$('#article').hover(
+    function () {
+        $('.recommend03').stop(true, true).fadeIn(0);
+        }, function () {
+        $('.recommend03').stop(true, true).fadeOut(0);
+    }
+);
+
+$('#contact').hover(
+    function () {
+        $('.recommend04').stop(true, true).fadeIn(0);
+        }, function () {
+        $('.recommend04').stop(true, true).fadeOut(0);
+    }
 );
 
 });

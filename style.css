@@ -147,12 +147,24 @@ figcaption p {
 	width: 100%;
 	height: auto;
 	position: relative;
-	background-color: white;
 }
 
 .recommend img {
 	width: 100%;
 	height: auto;
+}
+
+.recommend01, .recommend02, .recommend03, .recommend04 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.recommend01 img, .recommend02 img, .recommend03 img, .recommend04 img {
+	width: 100%;
+	height: auto;
+	z-index: 10;
 }
 
 .col-6 {
