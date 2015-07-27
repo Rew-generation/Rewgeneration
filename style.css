@@ -37,6 +37,21 @@ body {
 	width: 100%;
 	height: 37%;
 	border-bottom: 4px solid;
+	overflow: hidden;
+}
+
+#pickup ul {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#pickup li {
+	margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .pickup {
@@ -601,3 +616,6 @@ footer img {
 	-webkit-transform: skew(10deg);  
     -moz-transform: skew(10deg); 
 }
+
+
+
