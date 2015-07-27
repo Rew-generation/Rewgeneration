@@ -98,6 +98,7 @@ body {
 	height: auto;
 	margin-left: 4%;
 	margin-right: 2%;
+	margin-bottom: 5%;
 	float: left;
 	background-color: white;
 }
@@ -260,7 +261,6 @@ body {
 	height: 75%;
 	margin-right: 1%;
 	float: left;
-	transition: 0.5s;
 }
 
 .relatedarticle a:hover .subtime {
@@ -269,6 +269,10 @@ body {
 
 .relatedarticle a:hover .subrelate {
 	color: #a381d1;
+}
+
+.relatedarticle a:hover img{
+	opacity: 0.7;
 }
 
 .relatedcircle:nth-child(4) {
@@ -289,6 +293,7 @@ body {
 	width: 200%;
 	height: auto;
 	position: absolute;
+	transition: 0.3s;
 }
 
 .subtime {
@@ -298,6 +303,7 @@ body {
 	margin-top: 0;
 	margin-bottom: 0;
 	color: black;
+	transition: 0.3s;
 }
 
 .subrelate {
@@ -307,6 +313,7 @@ body {
 	margin-top: 5%;
 	margin-bottom: 0;
 	color: black;
+	transition: 0.3s;
 	
 }
 
@@ -316,4 +323,107 @@ body {
 	margin-right: 4%;
 	float: left;
 	background-color: white;
+}
+
+footer {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+	background-color: #f3f3f3;
+}
+
+footer img {
+	width: 100%;
+	height: auto;
+}
+
+.what {
+	width: 20%;
+	height: auto;
+	position: absolute;
+	left: 36%;
+	top: 7%;
+	z-index: 100;
+}
+
+.what img {
+	width: 100%;
+	height: auto;
+}
+
+#what {
+	position: relative;
+	transition: 0.3s;
+}
+
+#what img {
+	position: absolute;
+	right: 0;
+	transition: 0.3s;
+}
+
+#what img:hover {
+	right: 10%;
+	top: 0;
+}
+
+.team {
+	width: 20%;
+	height: auto;
+	position: absolute;
+	left: 38%;
+	top: 35%;
+	z-index: 100;
+}
+
+.team img {
+	width: 100%;
+	height: auto;
+}
+
+#team {
+	position: relative;
+	transition: 0.3s;
+}
+
+#team img {
+	position: absolute;
+	right: 0;
+	transition: 0.3s;
+}
+
+#team img:hover {
+	right: 10%;
+	top: 0;
+}
+
+.e-mail {
+	width: 20%;
+	height: auto;
+	position: absolute;
+	left: 41%;
+	top: 60%;
+	z-index: 100;
+}
+
+.e-mail img {
+	width: 100%;
+	height: auto;
+}
+
+#e-mail {
+	position: relative;
+	transition: 0.3s;
+}
+
+#e-mail img {
+	position: absolute;
+	right: 0;
+	transition: 0.3s;
+}
+
+#e-mail img:hover {
+	right: 10%;
+	top: 0;
 }
