@@ -1,6 +1,6 @@
 body {
 	margin: 0%;
-	font-family: Meiryo;
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',Osaka,sans-serif;
 	background-color: #f3f3f3;
 }
 
@@ -319,10 +319,108 @@ body {
 
 .sidebar {
 	width: 27%;
-	height: 100%;
+	height: auto;
 	margin-right: 4%;
 	float: left;
+}
+
+.facebookbar, .twitterbar, .googlebar{
+	width: 100%;
+	height: auto;
+	margin-bottom: 8%;
+}
+
+.facebookbar img, .twitterbar img , .googlebar img{
+	width: 100%;
+	height: auto;
+}
+
+.facebookbar a:hover, .twitterbar a:hover, .googlebar a:hover {
+	opacity: 0.7;
+	transition: 0.3s;
+}
+
+.recommendbar {
+	width: 100%;
+	height: auto;
 	background-color: white;
+	margin-top: 20%;
+}
+
+.recommendbar h2 {
+	width: 87%;
+	padding: 5%;
+	padding-left: 8%;
+	margin: 0;
+	font-weight: normal;
+	color: white;
+	background-color: #a381d1;
+}
+
+.recommendbar p {
+	width: 90%;
+	padding: 5%;
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+	text-align: center;
+	color: white;
+	background-color: #a381d1;
+}
+
+.recommendbar a {
+	text-decoration: none;
+}
+
+.recommendbar a:hover p {
+	opacity: 0.8;
+	transition: 0.3s;
+}
+
+.pickup {
+	width: 90%;
+	height: 15%;
+	padding: 5%;
+	border-bottom: 1px solid #a381d1;
+	text-decoration: none;
+}
+
+.pickup:hover h3 {
+	color: orange;
+}
+
+.pickupimg { 
+	width: 40%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+
+.pickupimg img {
+	position: absolute;
+	width: 200%;
+	height: auto;
+	top: 0;
+	right: -30%;
+}
+
+.pickupex {
+	width: 55%;
+	height: 99%;
+	padding-left: 5%;
+	padding-top: 1%;
+	float: left;
+}
+
+.pickupex h3 {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+	color: black;
+	transition: 0.3s;
 }
 
 footer {
