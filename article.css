@@ -343,7 +343,6 @@ body {
 #recommendbar {
 	width: 100%;
 	height: auto;
-	background-color: white;
 	margin-top: 20%;
 }
 
@@ -383,6 +382,7 @@ body {
 	padding: 5%;
 	border-bottom: 1px solid #a381d1;
 	text-decoration: none;
+	background-color: white;
 }
 
 .pickup:hover h3 {
