@@ -162,12 +162,12 @@ $(function() {
         function(){
             $('.pannelright01').stop().animate({
                 'right':'-8%',
-            },'500');
+            },'300');
         },
         function () {
             $('.pannelright01').stop().animate({
                 'right':'-25%',
-            },'500');
+            },'300');
         }
     );
 });
@@ -178,12 +178,12 @@ $(function() {
         function(){
             $('.pannelleft02').stop().animate({
                 'left':'-8%',
-            },'500');
+            },'300');
         },
         function () {
             $('.pannelleft02').stop().animate({
                 'left':'-25%',
-            },'500');
+            },'300');
         }
     );
 });
