@@ -7,6 +7,7 @@ body {
 .wrap {
 	width: 100%;
 	height: auto;
+	display: none;
 }
 
 .top {
@@ -678,3 +679,96 @@ footer img {
 	right: 10%;
 	top: 0;
 }
+
+
+/* ロード前CSSロード前CSSロード前CSSロード前CSSロード前CSSロード前CSS
+ロード前CSSロード前CSSロード前CSSロード前CSSロード前CSSロード前CSSロード前CSS */
+
+
+.beforewrap {
+	width: 100%;
+	height: 65%;
+	margin-top: -7%;
+	background-color: #f3f3f3;
+}
+
+.title {
+	width: 100%;
+	height: 50%;
+	margin-top: 25%;
+	margin-bottom: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.titlecontent {
+	width: 50%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.titlecontent p {
+	position: absolute;
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 70%;
+	top: 15%;
+	bottom: 15%;
+}
+
+.title1 {
+	position: absolute;
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 30%;
+	top: 10%;
+	bottom: 60%;
+	font-family: courier;
+	font-size: 300%;
+	
+}
+
+.textSplitLoad {
+    display: none;
+}
+
+.titlep {
+	visibility: hidden;
+	position: absolute;
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 5%;
+	top: 50%;
+	bottom: 45%;
+	transform: translateY(5%);
+	transition-delay: 0.5s;
+}
+
+
+.pannelleft00 {
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	top: 0;
+	left: -35%;
+	background-color: black;
+	-webkit-transform: skew(10deg);  
+    -moz-transform: skew(10deg); 
+}
+
+.pannelright00 {
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	top: 0;
+	right: -35%;
+	background-color: black;
+	-webkit-transform: skew(10deg);  
+    -moz-transform: skew(10deg); 
+}
+

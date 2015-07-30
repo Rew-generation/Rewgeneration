@@ -1,3 +1,57 @@
+// ロード前jsロード前jsロード前jsロード前jsロード前jsロード前jsロード前js
+
+$(function(){
+    $('.title1').css({opacity:'0'});
+    setTimeout(function(){
+        $('.title1').stop().animate({opacity:'1'},1000);
+    },3000);
+});
+
+$(function(){
+    setTimeout(
+        function(){
+            $('.pannelleft00').animate({
+                'left':'-8%'
+            },600);
+    },3500);
+});
+
+$(function(){
+    setTimeout(
+        function(){
+            $('.pannelright00').animate({
+                'right':'-8%'
+            },600);
+    },3500);
+});
+
+$(function(){
+    setTimeout(
+        function(){
+            $('.title')
+            .animate({'top':'5%'},400)
+            .animate({'top':'-50%'},1500);
+    },4000);
+});
+
+$(function(){
+    setTimeout(
+        function(){
+            $('.beforewrap').fadeOut(1500);
+    },4500);
+});
+
+$(function(){
+    setTimeout(
+        function(){
+            $('.wrap').fadeIn(1500);
+    },5700);
+});
+
+// ↓↓ここからロード後js↓↓ここからロード後js↓↓ここからロード後js
+
+
+
 $(function() {
  
  
